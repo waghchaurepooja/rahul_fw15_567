@@ -1,0 +1,17 @@
+
+/* for CSS we need loader because loader does't no how to bundle it so for that we use
+
+    we import css file in index.js like --> import "./index.css";
+    if run now it give me error for resolve it we use
+    npm install style-loader css-loader
+    loader like a Middleware or plugine
+    loader how to handle respective file like css file image file
+
+    now I am going to install npm install style-loader css-loader
+    how webpack work here webpack just send all css file to loader and loader bundle it
+*/
+.redtext
+{
+    color: tomato;
+    text-decoration: underline;
+}

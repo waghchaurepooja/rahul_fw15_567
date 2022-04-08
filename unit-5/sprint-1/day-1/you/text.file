@@ -1,0 +1,58 @@
+
+for overcome require and import
+
+we use npm install webpack webpack-cli
+
+difference between libraries and binary
+
+libraries --> is something that will importing in a code like 
+const x = require("express");
+
+binary --> is something that will run in terminal like git and node any thing that we will not importing in a code is called binary
+for using webpack as a binary then we write in script in package.json like
+
+"build" : "webpack"
+
+for run it first we say that index.js is first file or main file
+
+and now we run npm run build
+
+and we see that a one folder create like dist
+
+dist instance for -->  distribution
+
+whatever we give to user means whatever user give it come form dist folder
+means directly come from main.js
+
+and inside main.js a syntax
+which called -->
+
+IIFE --> Immediately Invoked Function Expression
+
+a function that Immediately Invoked
+
+it is annonymius function
+and it has only use stric --> to resolve silimistake
+
+webpack is calculate all thing and give me only result
+and webpack optimised our code
+
+and only main.js content send to user or browser
+and it is secure
+
+
+now we see in main.js there is no mySecretKey because we did't not pass and webpack don't include it in main.js
+webpack only send those code which is usable
+
+But if we use mySecretKey then it only give value not variable name
+
+
+
+for running automatic we use in script of package.json
+"build:w" : "webpack --watch"
+
+and for console.log() we use node dist/main.js
+
+after npm run build see a warning occure like configuration
+
+so for that we use webpack.config.js
