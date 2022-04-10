@@ -30,7 +30,9 @@ const Counter = () =>
                             return;
                         }
                         // handleChange(-2);
+
                         handleChange(-1);
+                        
                     }}>Decrease</button>
                 </div>
             </div>
