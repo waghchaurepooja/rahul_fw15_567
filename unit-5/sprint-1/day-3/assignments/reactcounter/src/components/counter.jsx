@@ -16,7 +16,9 @@ const Counter = () =>
                     {/* <button className = "button" onDoubleClick ={() =>{ */}
                     <button className = "button" onClick ={() =>{
                         // handleChange(2);
+
                         handleChange(1);
+
                     }}>Increase</button>
                 </div>
                 -
