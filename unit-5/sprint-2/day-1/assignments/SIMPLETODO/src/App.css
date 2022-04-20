@@ -1,0 +1,126 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#root{
+  padding: 1vw;
+}
+
+.App{
+  padding: 6vw 3vw;
+  width: 40vw;
+  margin: auto;
+  background-color: rgb(206,206,206);
+}
+.InputButton1{
+  padding: 1vw;
+  width: 94.2%;
+}
+.AllTodo{
+  padding: 1vw;
+  height: 20vw;
+  overflow: auto;
+}
+.ItemButton{
+  /* border: 1px solid; */
+  padding: 0vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 94.5%;
+  margin-bottom: .5vw;
+}
+.Toggle2{
+  padding: .5vw .8vw;
+  border-radius: 70%;
+  font-size: 2vw;
+  cursor: pointer;
+  background-color: rgb(146, 156, 5);
+}
+.ItemBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .2vw 2vw;
+  height: 5vw;
+  font-size: 2vw;
+  border-radius: .5vw;
+  background-color: white;
+  color: black;
+}
+.ButtonBox{
+  padding: 0vw;
+  width: fit-content;
+  margin-left: .5vw;
+  display: flex;
+}
+.Toggle1{
+  padding: .5vw .8vw;
+  border-radius: 70%;
+  font-size: 2vw;
+  cursor: pointer;
+  background-color: rgb(179, 50, 32);
+}
+
+
+.InputButton{
+  padding: 1vw;
+  display: flex;
+  width: 94.4%;
+  justify-content: center;
+}
+.AddItemButton{
+  padding: .4vw;
+  margin-left: .4vw;
+  width: 10%;
+  border-radius: .6vw;
+  font-size: 2.2vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.AddItemButton:hover{
+  background-color: yellow;
+  color: blue;
+}
+.AddItemInput{
+  padding: .5vw 2vw;
+  width: 60%;
+  border-radius: .6vw;
+  font-size: 2vw;
+}
