@@ -34,10 +34,6 @@ const Todo = () =>{
         })])
 
     }
-    
-    console.log('Text:', Text)
-
-    console.log('Todolist:', Todolist)
 
     return (
 
