@@ -19,6 +19,7 @@ export const CompleteTodo = ({Item, index, DeleteFn}) =>{
 
     }
     return (
+
         <div className="DoneItemContainer">
             <div className="DoneItemBox">
                 <input className="DoneItemCheckboxBox" name = "CheckboxForDone" type="checkbox" value = {Item.id} checked/>
@@ -28,5 +29,6 @@ export const CompleteTodo = ({Item, index, DeleteFn}) =>{
                 }}>Delete</button>
             </div>
         </div>
+        
     )
 }
