@@ -13,7 +13,7 @@ function App() {
   }
   return (
     <div className="App">
-      {Show ? <Timer start = {1} end = {5} ShowFn = {handleShow} /> : "Timer : Ended"}
+      {Show ? <Timer start = {1} end = {100} ShowFn = {handleShow} /> : "Timer : Ended"}
       <div>
         <button onClick={() =>{
           setShow(true);
