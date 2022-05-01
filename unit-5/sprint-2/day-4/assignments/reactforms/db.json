@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "Name": "Rahul Rathor",
+      "Age": "24",
+      "Address": "House No.14, Mohalla Shekhan, Dibai, Bulandshahr,(UP)",
+      "Department": "Manager",
+      "Salary": "200000",
+      "marital_state": "Single",
+      "id": 1
+    },
+    {
+      "Name": "Rahul Rathor",
+      "Age": "24",
+      "Address": "House No.14, Mohalla Shekhan, Dibai, Bulandshahr,(UP)",
+      "Department": "Manager",
+      "Salary": "250000",
+      "marital_state": "Single",
+      "id": 2
+    }
+  ]
+}
